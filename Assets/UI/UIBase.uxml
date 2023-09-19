@@ -1,0 +1,99 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/BaseUI.uss?fileID=7433441132597879392&amp;guid=c4cd27c7c98539f41bed504913ee5f7c&amp;type=3#BaseUI" />
+    <ui:VisualElement name="header" class="header" style="flex-grow: 0; -unity-text-outline-color: rgba(0, 0, 0, 0); height: 482px;">
+        <ui:VisualElement name="resource" style="height: 135px; flex-direction: row; flex-basis: auto; flex-shrink: 1; flex-grow: 0; justify-content: space-between; align-items: center; margin-right: 250px; padding-right: 0; padding-bottom: 0; margin-left: 250px;">
+            <ui:Label display-tooltip-when-elided="true" name="manuImg" style="background-image: url(&apos;project://database/Assets/Sprites/gold-coins-6.png?fileID=2800000&amp;guid=06d8a514b7d716245b195f61d5bb4a45&amp;type=3#gold-coins-6&apos;); width: 100px; height: 100px; left: auto; position: relative; white-space: nowrap; background-color: rgba(56, 56, 56, 0); -unity-background-image-tint-color: rgb(236, 39, 39); -unity-slice-left: 0; border-right-width: 0;" />
+            <ui:Label text="6000" display-tooltip-when-elided="true" name="manu" style="position: relative; top: auto; left: auto; justify-content: center; color: rgb(246, 212, 129); -unity-text-align: upper-center; flex-direction: row; font-size: 48px; margin-right: 40px; margin-left: -6px;" />
+            <ui:Label display-tooltip-when-elided="true" name="pointImg" style="background-image: url(&apos;project://database/Assets/Sprites/gold-coins-6.png?fileID=2800000&amp;guid=06d8a514b7d716245b195f61d5bb4a45&amp;type=3#gold-coins-6&apos;); width: 100px; height: 100px;" />
+            <ui:Label text="11000" display-tooltip-when-elided="true" name="point" style="position: relative; top: auto; left: auto; justify-content: center; color: rgb(246, 212, 129); -unity-text-align: upper-left; flex-direction: row; white-space: nowrap; width: auto; flex-basis: auto; height: auto; font-size: 48px; margin-left: -39px; margin-right: 28px;" />
+            <ui:Label display-tooltip-when-elided="true" name="crystalsImg" style="background-image: url(&apos;project://database/Assets/Sprites/pngfind.com-crystal-png-489931.png?fileID=2800000&amp;guid=ee9da427e3e0b9f4a8029040e11c27e3&amp;type=3#pngfind.com-crystal-png-489931&apos;); width: 100px; height: 100px;" />
+            <ui:Label text="40" display-tooltip-when-elided="true" name="crystals" style="position: relative; top: auto; left: auto; justify-content: center; color: rgb(246, 212, 129); -unity-text-align: upper-center; flex-direction: row; font-size: 48px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="nameScene">
+            <ui:Label display-tooltip-when-elided="true" name="backraund" style="background-color: rgb(67, 67, 96); -unity-text-align: upper-center;">
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="nameScene" style="align-items: center; justify-content: center; white-space: nowrap; font-size: 64px; color: rgb(108, 222, 231);" />
+            </ui:Label>
+        </ui:VisualElement>
+        <ui:VisualElement name="experience" style="justify-content: space-between; align-items: stretch; flex-direction: row;">
+            <ui:Label display-tooltip-when-elided="true" name="imgPlayer" style="background-image: url(&apos;project://database/Assets/Sprites/pngfind.com-crystal-png-489931.png?fileID=2800000&amp;guid=ee9da427e3e0b9f4a8029040e11c27e3&amp;type=3#pngfind.com-crystal-png-489931&apos;); width: 250px; height: 250px;" />
+            <ui:ProgressBar value="22" name="experienceScale" style="width: 55%; align-items: stretch; justify-content: center; background-color: rgba(56, 56, 56, 0); -unity-text-outline-color: rgba(0, 0, 0, 0); -unity-background-image-tint-color: rgba(255, 255, 255, 0); height: auto; border-left-color: rgb(0, 0, 195); border-right-color: rgb(0, 0, 195); border-top-color: rgb(0, 0, 195); border-bottom-color: rgb(0, 0, 195);" />
+            <ui:Button display-tooltip-when-elided="true" name="clearBtn" style="background-image: url(&apos;project://database/Assets/Sprites/Daco_5928007.png?fileID=2800000&amp;guid=fcc0063a858c6de4e8cd3c96ff3b9450&amp;type=3#Daco_5928007&apos;); height: 250px; width: 250px; -unity-text-outline-color: rgba(0, 0, 0, 0); background-color: rgba(88, 88, 88, 0);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="body" class="body">
+        <ui:VisualElement name="infopanel" focusable="false" style="background-color: rgba(14, 38, 63, 0.39);">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="infoText" style="justify-content: center; align-items: center; -unity-text-align: middle-center; font-size: 64px; color: rgb(131, 208, 245);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="competition" style="flex-direction: row; align-items: stretch; justify-content: space-between;">
+            <ui:Label display-tooltip-when-elided="true" name="leftImg" style="align-items: flex-start; width: 256px; height: 444px; background-color: rgb(118, 226, 116); background-image: url(&apos;project://database/Assets/Sprites/NicePng_race-horse-png_2811597.png?fileID=2800000&amp;guid=51360b0284836c34884ecdb95996d5df&amp;type=3#NicePng_race-horse-png_2811597&apos;); -unity-background-scale-mode: scale-and-crop;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" name="competionBtn" class="competion" style="width: 40%; font-size: 64px;" />
+            <ui:Label display-tooltip-when-elided="true" name="rightImg" style="align-items: flex-end; width: 256px; height: 444px; background-color: rgb(118, 226, 116); background-image: url(&apos;project://database/Assets/Sprites/NicePng_race-horse-png_2811597.png?fileID=2800000&amp;guid=51360b0284836c34884ecdb95996d5df&amp;type=3#NicePng_race-horse-png_2811597&apos;); -unity-background-scale-mode: scale-and-crop;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="duelTournament" style="background-color: rgb(89, 158, 229); flex-direction: row; justify-content: space-between; align-items: flex-start;">
+            <ui:VisualElement name="tournament">
+                <ui:Button display-tooltip-when-elided="true" name="tournamentBtn" style="width: 600px; height: 444px; background-image: url(&apos;project://database/Assets/Sprites/NicePng_dragon-png_3946288.png?fileID=2800000&amp;guid=c788868fb61dba843b3617372a93e211&amp;type=3#NicePng_dragon-png_3946288&apos;);" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="tournamentText" style="font-size: 48px; color: rgb(22, 21, 21); -unity-text-align: upper-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="duel">
+                <ui:Button display-tooltip-when-elided="true" name="duelBtn" style="width: 600px; height: 444px; background-image: url(&apos;project://database/Assets/Sprites/NicePng_moon-png_4732588.png?fileID=2800000&amp;guid=557dc04b34bf99245a8e64759b7aa2f0&amp;type=3#NicePng_moon-png_4732588&apos;);" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="duelText" style="font-size: 48px; color: rgb(22, 21, 21); -unity-text-align: upper-center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="saveInfo">
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="font-size: 48px; background-color: rgba(88, 88, 88, 0); white-space: nowrap;" />
+            <ui:VisualElement name="gifInfo" style="flex-direction: row; align-items: center; justify-content: center;">
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="giftText" style="font-size: 48px; -unity-text-align: middle-center;" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" style="width: 100px; height: 100px; background-image: url(&apos;project://database/Assets/Sprites/gold-coins-6.png?fileID=2800000&amp;guid=06d8a514b7d716245b195f61d5bb4a45&amp;type=3#gold-coins-6&apos;);" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="giftText" style="font-size: 48px; -unity-text-align: middle-center;" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" style="width: 100px; height: 100px; background-image: url(&apos;project://database/Assets/Sprites/gold-coins-6.png?fileID=2800000&amp;guid=06d8a514b7d716245b195f61d5bb4a45&amp;type=3#gold-coins-6&apos;);" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="giftText" style="font-size: 48px; -unity-text-align: middle-center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="buttomPanel">
+            <ui:Button text="Quest" display-tooltip-when-elided="true" name="questBtn" style="background-color: rgb(33, 15, 147); font-size: 48px; -unity-font-style: bold; -unity-text-align: middle-center; align-items: center; flex-direction: row-reverse; white-space: nowrap; justify-content: space-between;">
+                <ui:Label text="calk" display-tooltip-when-elided="true" name="calk" style="-unity-text-align: upper-right; white-space: nowrap;" />
+                <ui:Label text="img&#10;" display-tooltip-when-elided="true" name="img" style="-unity-text-align: upper-center; width: 100px; height: 100px;" />
+            </ui:Button>
+            <ui:Button text="growth" display-tooltip-when-elided="true" name="growthBtn" style="background-color: rgb(33, 15, 147); font-size: 48px; -unity-font-style: bold; -unity-text-align: middle-center; align-items: stretch; flex-direction: row; white-space: nowrap; justify-content: space-between;">
+                <ui:Label text="img&#10;" display-tooltip-when-elided="true" name="img" style="-unity-text-align: middle-left; width: 100px; height: 100px;" />
+                <ui:Toggle label="Toggle" />
+            </ui:Button>
+            <ui:Button text="best" display-tooltip-when-elided="true" name="bestBtn" style="background-color: rgb(33, 15, 147); font-size: 48px; -unity-font-style: bold; -unity-text-align: middle-center; flex-direction: column; align-items: flex-start; justify-content: flex-start; white-space: nowrap;">
+                <ui:Label text="img&#10;" display-tooltip-when-elided="true" name="img" style="-unity-text-align: middle-left; width: 100px; height: 100px;" />
+            </ui:Button>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="footer" class="footer" style="flex-direction: column;">
+        <ui:VisualElement name="MenuPanel" style="flex-direction: row; align-items: stretch; justify-content: space-around;">
+            <ui:VisualElement>
+                <ui:Button display-tooltip-when-elided="true" name="homeBtn" style="width: 256px; height: 256px; flex-direction: column-reverse; margin-top: 1px;" />
+                <ui:Label text="Home" display-tooltip-when-elided="true" style="font-size: 48px; -unity-text-align: middle-center; height: auto; width: 252px;" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Button display-tooltip-when-elided="true" name="Home" style="width: 256px; height: 256px; flex-direction: column-reverse; margin-top: 1px;" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" style="font-size: 48px; -unity-text-align: middle-center; height: auto; width: 252px;" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Button display-tooltip-when-elided="true" name="Home" style="width: 256px; height: 256px; flex-direction: column-reverse; margin-top: 1px;" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" style="font-size: 48px; -unity-text-align: middle-center; height: auto; width: 252px;" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Button display-tooltip-when-elided="true" name="Home" style="width: 256px; height: 256px; flex-direction: column-reverse; margin-top: 1px;" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" style="font-size: 48px; -unity-text-align: middle-center; height: auto; width: 252px;" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Button display-tooltip-when-elided="true" name="Home" style="width: 256px; height: 256px; flex-direction: column-reverse; margin-top: 1px;" />
+                <ui:Label text="Label" display-tooltip-when-elided="true" style="font-size: 48px; -unity-text-align: middle-center; height: auto; width: 252px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; align-items: flex-end; justify-content: center;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="width: 100px; height: 100px;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="width: 100px; height: 100px;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="width: 100px; height: 100px;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; align-items: flex-end; justify-content: center;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="width: 100px; height: 100px;" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" style="width: 100px; height: 100px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
